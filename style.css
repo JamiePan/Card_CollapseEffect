@@ -1,0 +1,93 @@
+body{
+    background: #F0F7FF;
+    padding-top: 30px;
+  }
+.card-block{
+  padding:15px;
+
+}
+.card_top {
+    padding: 10px;
+    position: relative;
+    display: flex;
+}
+.card_logo {
+    background: linear-gradient(orange, red);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+}
+.card_title {
+    margin: 20px;
+}
+
+.meal_name {
+    font-size: 14px; 
+    font-family:Roboto, Helvetica, Arial, sans-serif; 
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.date {
+    font-size: 14px; 
+    font-family: Roboto, Helvetica, Arial, sans-serif; 
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.dots:after {
+    content: '\2807';
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    padding: 10px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:lightslategray;
+}
+
+.dots:hover {
+    background-color:LightGray;
+    border-radius:50%;
+ 
+}
+
+p{
+    font-size: 14px; 
+    font-family: Roboto, Helvetica, Arial, sans-serif; 
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+
+i.fas {
+    color:lightslategray;
+}
+i.fas:hover {
+    background-color:LightGray;
+    border-radius:100%;
+}
+
+.collapsible {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid lightslategray
+  
+   
+  }
+
+  .content {
+    padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  }
